@@ -1,0 +1,9 @@
+.mobile {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .mobile {
+    display: table-cell;
+  }
+}

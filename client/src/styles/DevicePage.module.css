@@ -1,0 +1,157 @@
+.main {
+  margin: 1rem 0rem;
+  font-size: 1.2rem;
+}
+
+.noComm {
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.commSection {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.characteristics2 {
+  display: none;
+}
+.characteristicsLine2 {
+  display: none;
+}
+.price {
+  color: red;
+}
+
+.mainImg {
+  width: 100%;
+  object-fit: cover;
+  grid-area: img;
+  height: 100%;
+}
+
+.nameAndPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.cardContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  grid-area: info;
+}
+
+.characteristics {
+  padding: 1rem;
+  grid-area: char;
+}
+
+.characteristicsLine {
+  font-size: 1.2rem;
+  padding: 5px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .mainImg {
+    width: 100%;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'img info'
+      'char char';
+    justify-content: space-between;
+  }
+  .nameAndPrice,
+  .rating {
+    justify-content: start;
+    gap: 1rem;
+  }
+  .characteristicsLine {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    grid-template-columns: 1fr 2fr;
+  }
+  .buttons {
+    margin-top: auto;
+  }
+  .headLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .characteristics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+  .characteristicsLine {
+    justify-content: start;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headLine {
+    flex-direction: column;
+  }
+  .nameAndPrice,
+  .rating {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .characteristics {
+    display: none;
+  }
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .characteristics2 {
+    display: block;
+  }
+  .characteristicsLine2 {
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .characteristicsLine2:hover {
+    background-color: #212529;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 1400px) {
+}

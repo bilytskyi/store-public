@@ -1,0 +1,75 @@
+.oldPrice {
+  text-decoration: line-through;
+}
+
+.price {
+  color: red;
+  font-weight: 600;
+}
+
+.deviceCard {
+  width: 19.5rem;
+}
+
+.deviceImg {
+  height: 300px;
+}
+
+.deviceCard:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+@media (min-width: 446px) {
+  .deviceCard {
+    width: 21rem;
+  }
+  .deviceImg {
+    height: 330px;
+  }
+}
+
+@media (min-width: 576px) {
+  .deviceCard {
+    width: 23rem;
+  }
+  .deviceImg {
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .deviceCard {
+    width: 21.5rem;
+  }
+  .deviceImg {
+    height: 290px;
+  }
+}
+
+@media (min-width: 992px) {
+  .deviceCard {
+    width: 19.1rem;
+  }
+  .deviceImg {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .deviceCard {
+    width: 13.55rem;
+  }
+  .deviceImg {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .deviceCard {
+    width: 13.07rem;
+  }
+  .deviceImg {
+    height: 200px;
+  }
+}

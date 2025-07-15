@@ -1,0 +1,13 @@
+.deviceList {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .deviceList {
+    justify-content: start;
+  }
+}

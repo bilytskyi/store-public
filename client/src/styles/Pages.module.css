@@ -1,0 +1,39 @@
+.pageItem {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.pageItem:first-child {
+  border-radius: 7px 0px 0px 7px;
+}
+
+.pageItem:last-child {
+  border-radius: 0px 7px 7px 0px;
+}
+
+.pageItem:only-child {
+  border-radius: 7px;
+}
+
+.active {
+  background-color: #212529;
+  color: white;
+  border: 1px solid #212529;
+}
+
+.pageItem:hover {
+  transform: scale(1.03);
+}
+
+.pagesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto 1rem;
+  width: max-content;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.nav {
+  background-color: #212529;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+}
+
+.burger {
+  display: none;
+}
+
+.fake {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.settingLink {
+  color: #212529;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.settingDiv {
+  padding: 0;
+}
+
+.settingLink:hover {
+  background-color: #2125293a;
+}
+
+@media (max-width: 992px) {
+  .right {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .flex {
+    padding: 10px;
+  }
+}
