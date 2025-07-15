@@ -50,6 +50,7 @@ Das Projekt ist auf meinem eigenen Server (Raspberry Pi 4) gehostet, der bei mir
 - HTTPS-Zertifikate
 - Eigene Domain
 - Demo: [https://store.bilytskyi.com](https://store.bilytskyi.com)
+- Benutzername: admin, Passwort: admin (oder erstelle einen neuen Benutzer)
 
 ---
 
